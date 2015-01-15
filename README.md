@@ -28,8 +28,8 @@ d) Data LifeCycle. (steps)
 
 Distributed control systems which will help others also to edit and maintain the version control. 
 
-Markup language: This is like the normal HTML Markup languge it uses plain text to create rich test.(bullets, tables etc).
-
+Markup language: This is like the normal HTML Markup languge it uses plain text to create rich test.(bullets, tables etc).  
+* GitHub Lable Markdown
 * standard Markdown
    * Plain text formatting , creating tables, formatting, Images can also be added, There are list (ordered and unordered), create links, block of codes.
    * Creating headers: There are different types of headers, these can be created by using hash pounds before heading. 
@@ -39,5 +39,5 @@ Markup language: This is like the normal HTML Markup languge it uses plain text 
    * Codeblocks and syntax use three back-ticks in the starting and the ending of the code. It will Automatically adds the colors to the words according to the language. 
    * Tables-
    * To create horizantal lines use 3 Hyphens, Asterisks or underscores. 
-* GitHub Lable Markdown
+
 
