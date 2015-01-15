@@ -17,15 +17,27 @@ c) Storage - NoSql
 
 d) Data LifeCycle. (steps)
      ->Colletion of the generating data.(Data is collected up on knowing what has to be collected called as question apart of it one more content is Curation another aspect of Curation is Triag(prioritization of the situation)and in the end persistance of the data)
-     ->Clean up 
-     ->Storage. 
-     ->Processing/Analysis 
-     ->query/Visualization/Act.(Gives the new question with the received answer)
+     * Clean up 
+     * Storage. 
+     * Processing/Analysis 
+     * query/Visualization/Act.(Gives the new question with the received answer)
+    
+    Http request response Cycle. 
      
-     Http request response Cycle. 
-     
-  
-     
-    Data Modeling is very hard to do and its very expensive. 
+##Lecture2:
 
+Distributed control systems which will help others also to edit and maintain the version control. 
+
+Markup language: This is like the normal HTML Markup languge it uses plain text to create rich test.(bullets, tables etc).
+
+* standard Markdown
+   * Plain text formatting , creating tables, formatting, Images can also be added, There are list (ordered and unordered), create links, block of codes.
+   * Creating headers: There are different types of headers, these can be created by using hash pounds before heading. 
+   * Italics and bold text can also be created. 
+   * we can use astric and numbers before the lines with two spaces. 
+   * To provide a link [Google homepage](www.google.com).
+   * Codeblocks and syntax use three back-ticks in the starting and the ending of the code. It will Automatically adds the colors to the words according to the language. 
+   * Tables-
+   * To create horizantal lines use 3 Hyphens, Asterisks or underscores. 
+* GitHub Lable Markdown
 
