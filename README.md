@@ -5,8 +5,10 @@
 Big data is found in:
 
 a) Social Netwoks
+
 b) Data Analytics
     Most of the  machine learning will be done here. For example if a company needs to find out the interest of the customer with his most recent purchases and offer him with the best products.
+    
 c) Storage - NoSql
      NoSql is not very good at handling the Non-Orbitrary queries. 
      Documents, Graphs, Key-Value, colomar store. 
