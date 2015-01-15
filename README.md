@@ -27,7 +27,7 @@ d) Data LifeCycle. (steps)
 ##Lecture2:
 
 Distributed control systems which will help others also to edit and maintain the version control. 
-
+###GitHub MarkDown
 Markup language: This is like the normal HTML Markup languge it uses plain text to create rich test.(bullets, tables etc).  
 * GitHub Lable Markdown
 * standard Markdown
@@ -38,6 +38,22 @@ Markup language: This is like the normal HTML Markup languge it uses plain text 
    * To provide a link [Google homepage](www.google.com).
    * Codeblocks and syntax use three back-ticks in the starting and the ending of the code. It will Automatically adds the colors to the words according to the language. 
    * Tables-
-   * To create horizantal lines use 3 Hyphens, Asterisks or underscores. 
+   * To create horizantal lines use 3 Hyphens, Asterisks or underscores.  
+
+Web browser will send a request to the webserver to get a particular page from a website. ex: www.ebay.com/product/20, this will use GET, POST, Delete, and Put. Delete should be done with care so that people cannot send delete request and delete the data. The webserver will ask the handler(Saperate entity ex: Apache webserver etc) about the request.The handler will point out the HMTL file in the disk and then send it to the browser now browser will get additional data from the webserver if there are any further links in the received HTML Page.  Rest is an Architecture for buling server based request.Respresentation of state transfer(REST)  
+* Resources called URI(Relationship is subset of URI-URL)(URL has a limit of 1024bits)
+* CRUD(Create Read Update and Desination)
+* GET-Read operation and get back the current state of the Resource. 
+* POST- Creating a new Resouce(Data which helps to create new user)
+* PUT- Update. (Update the existing user for the particular data)
+* DELETE - Destroy the user.  
+
+While creating a webservice we need to think of:
+* database to use and how to get the ID for the data. 
+* Input to be used
+* What output ?
+* Errors. 
+
+
 
 
