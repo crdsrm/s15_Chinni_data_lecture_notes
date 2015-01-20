@@ -54,6 +54,43 @@ While creating a webservice we need to think of:
 * What output ?
 * Errors. 
 
+##Lecture 3:
+
+* Get: Retrive a list of all users
+  * GET/api/2.0/users/0 - Retrive the details of users 0.
+  * POST/api/2.0/users- Create a new user. 
+  * PUT/api/2.0/users/0 - Update user 0 
+  * DELETE/apt/2.0/users/0 - Delete user 0.
+  * GET/api/2.0/serach?w=tattersail - Perform a serach with the tattersail.
+
+
+Each operation may produce a result with Restful services, JSON format is king. POst and PUT methods typically send data in JSON format. FOR Get the data may appear as uery params. 
+
+Other formats are possible like HTML , XML are typical. ruest needs to be authenticated this authentication data appears in HTTP Headers. 
+
+###How operations on two resources are handled?
+
+* One approach is GET/api/2.0/posts/0/comments/2 - Get First comment on post 0.
+* POST/api/2.0/posts/0/comments- Create a new comment on post 0.
+* 
+Alternative Approace.
+
+* while performing an operation on one resource, you 
+
+Issues:
+
+* Security: how to authenticate.
+* Identity: How Id's are assigned to resouces. 
+* Failure: How to handle the failure situations
+* persistence: How are resouces Stored. 
+* (respec)
+Technologies used: 
+* sinatra
+* Rspec
+* Typhoeus
+* Node
+* Express
+
 
 
 
