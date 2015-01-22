@@ -92,5 +92,17 @@ Technologies used:
 * Express
 
 
+ 
+##Lecture 4:
+
+#####Git Version controlling:
+
+Master is created during the first commit when ever a new commit is made a Head is added to the master. If some of tries to fix the bugs for a given code then the head and the master will be pointed to the current node. Git merge Master is used to make sure that the other person who is using the same code will see the changes for this just say Git merge sort(This works when there are two parents.)
+
+#####Git Hub workflow
+
+Master->branch ->pullreuest. Master represents production ready code all the pusing should be done on branches. Pull reuest to add the code to the available branch If you have collabrated access. if there is no collabrated access use fork. Fork is an exact copy of the repository. 
+
+
 
 
