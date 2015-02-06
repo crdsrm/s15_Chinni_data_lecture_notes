@@ -103,6 +103,9 @@ Master is created during the first commit when ever a new commit is made a Head 
 
 Master->branch ->pullreuest. Master represents production ready code all the pusing should be done on branches. Pull reuest to add the code to the available branch If you have collabrated access. if there is no collabrated access use fork. Fork is an exact copy of the repository. 
 
+##Lecture 7:
+
+React frame work better than angular. sublime(ide) 
 
 
 
