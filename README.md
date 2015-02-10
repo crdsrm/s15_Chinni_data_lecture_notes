@@ -107,5 +107,12 @@ Master->branch ->pullreuest. Master represents production ready code all the pus
 
 React frame work better than angular. sublime(ide) 
 
+##Lecture 8:
+
+Myfirst git In angular one can assign variables and methods to this in a controller we cannot allocate this with a number. 
+
+Consumer key and secret key. and get the token access consumer key and secret key. 
+developers documentation 
+
 
 
