@@ -114,5 +114,12 @@ Myfirst git In angular one can assign variables and methods to this in a control
 Consumer key and secret key. and get the token access consumer key and secret key. 
 developers documentation 
 
+##Lecture 10:
+
+Getting data from twitter take two: OAuth is the secuirty protocol that is used to take care of who is looking in what kind of data. call back url is used to give an external site the access of what is happening in some ones twitter account. 
+
+####Accessing twitter data via the Rest:
+    It should have a single JSON object inside with the consumer key, accesskey details. use rbenv to manage ruby on your  machine. __File__ is the current file that is executing. JQ is the tool required for json files. 
+
 
 
