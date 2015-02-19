@@ -121,5 +121,9 @@ Getting data from twitter take two: OAuth is the secuirty protocol that is used 
 ####Accessing twitter data via the Rest:
     It should have a single JSON object inside with the consumer key, accesskey details. use rbenv to manage ruby on your  machine. __File__ is the current file that is executing. JQ is the tool required for json files. 
 
+##Lecture 12: 
+
+Shard the database which means multiple instances of the database server. Different databases each with its filesystems. Sharding should be done very carfully otherwise its difficult to get back the server live it takes time to troubleshoot. 
+
 
 
