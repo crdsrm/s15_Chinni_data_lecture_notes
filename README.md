@@ -126,4 +126,24 @@ Getting data from twitter take two: OAuth is the secuirty protocol that is used 
 Shard the database which means multiple instances of the database server. Different databases each with its filesystems. Sharding should be done very carfully otherwise its difficult to get back the server live it takes time to troubleshoot. 
 
 
+##Lecture 13:
+
+Couch DB:  
+ * Document Model. 
+ * It stores Documents.
+ * Each document contains every thing that is need for an application. 
+ * CAP Therom:
+ * Consistency: All clients see the same data even in the presence of concurrent updates.
+ * Availability: All clients are available at all time for reading and writing. 
+ * Partition Tolerance: Database can be split across multiple servers. The Cap theorm says pick any two of these features. 
+ * Couch db will choose Availability and partition tolerance.(even many nosql systems does this).
+ * CouchDB makes use of a B-tree storage engine, Automatic sorting, seraches , insertion, and deletion occur in deletion time. 
+ * Employs MapReduce over this B-tree to compute views of the data allowing for parallel and incremental computation. 
+ * No Locking: CouchDB does not requiree locks for concurrent access to its documents. 
+ * It will return the latese version of the document and a new version of the document can be written while a read occurs the next read will return the new updated document. 
+ * Validation function can be written in Js for a particular class of document. 
+ * Incremental Replication: synchronization of data between servers can be done when ever is necessary. 
+ * once replication is doen all the copies are independent. 
+ * Merge Conflicts: Each document will have a version id and a separate id. 
+
 
