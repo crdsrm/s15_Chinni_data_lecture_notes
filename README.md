@@ -145,5 +145,27 @@ Couch DB:
  * Incremental Replication: synchronization of data between servers can be done when ever is necessary. 
  * once replication is doen all the copies are independent. 
  * Merge Conflicts: Each document will have a version id and a separate id. 
+ 
+##NEOJ
+
+* This is the graph database where the nodes are the data and the edges are the relation between them. 
+* We can use findallpaths() to find all the incoming and out going paths from a node to b node. 
+* shortestpath() finds the shortest path between two different nodes. 
+* Gremlin is specific language for travesing graph or cypher can be used. Lucene for full text search.
+* Aggretated orientation database
+
+##Hbase:
+* Hbase run over hadoop which has map reduce and hdfs file system. hbase run over hdfs file system which is coloumn based.
+* Hdfs is a batch processing. Column families and each has multiple columns. 
+* Each cell value of the table has a timestamp to retrive based on the timestamp. 
+* table->collection of roles
+* row-> collection of column families
+* column Family -> collection of columns. 
+* Data is de-normalized
+* Zookeeper will keep track of all the nodes and information of the meta file.
+* Zookeeper keeps the location of the system table .META. 
+* If there is too much data in one region it will trigger a split and transfer the data. 
+* When to use Hbase is large amount of data in client.
+* Horizantally scalable - Automatic Sharding. 
 
 
